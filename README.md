@@ -26,28 +26,29 @@ Abrí el archivo index.html.
 Dale clic derecho y seleccioná "Show Preview" o ejecutá tu servidor local para verlo en: http://127.0.0
 
 📦 Estructura de Archivos
-├── /estilos
-│   ├── carrito.css        # Hoja de estilos del carrito
-│   ├── contacto.css       # Hoja de estilos de contacto
-│   └── tienda.css         # Hoja de estilos de la tienda
-├── /img
-│   ├── /people            # Fotos de clientes para reseñas
-│   ├── /productos         # Fotos de tortas, tartas y alfajores
-│   └── logo.jpg           # Logo de la marca
-├── /pages
-│   ├── carrito.html       # Página del carrito de compras
-│   ├── contacto.html      # Página de contacto
-│   └── tienda.html        # Página de la tienda
-├── index.html             # Página principal del sitio
-├── /script
-│   ├── carrito.js       
-│   ├── contactoStorage.js   
-│   ├── contactoValidacion.js 
-│   ├── index.js
-│   ├── script.js
-│   ├── tienda.js
-│   └── toast.js
-└── styles.css             # Hojas de estilo generales
+.
+├── estilos/                    # Hojas de estilo específicas por página
+│   ├── carrito.css             # Diseño detallado del carrito
+│   ├── contacto.css            # Estilos del formulario de contacto
+│   └── tienda.css              # Maquetación de la cuadrícula de productos
+├── img/                        # Recursos visuales y multimedia
+│   ├── people/                 # Fotografías de clientes para el apartado de reseñas
+│   ├── productos/              # Catálogo fotográfico (tortas, tartas y alfajores)
+│   └── logo.jpg                # Identidad visual de la marca
+├── pages/                      # Páginas secundarias del sitio web
+│   ├── carrito.html            # Interfaz del carrito de compras
+│   ├── contacto.html           # Formulario de comunicación con el usuario
+│   └── tienda.html             # Galería completa de productos disponibles
+├── script/                     # Lógica y scripts de comportamiento (JavaScript)
+│   ├── carrito.js              # Gestión de productos seleccionados
+│   ├── contactoStorage.js      # Persistencia de datos del formulario en LocalStorage
+│   ├── contactoValidacion.js   # Validaciones de seguridad en campos de entrada
+│   ├── index.js                # Lógica específica de la página de inicio
+│   ├── script.js               # Funcionalidades globales (menú interactivo móvil)
+│   ├── tienda.js               # Manejo de filtros y eventos del catálogo
+│   └── toast.js                # Sistema de notificaciones emergentes en pantalla
+├── index.html                  # Punto de entrada principal (Home de la pastelería)
+└── styles.css                  # Hoja de estilos generales y variables del sitio
 
 🧁 Menú de Productos Incluidos
 Alfajores Bañados (Chocolate Semiamargo o Blanco)
