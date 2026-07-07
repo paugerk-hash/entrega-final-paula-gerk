@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda - Pastelería Artesanal</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../estilos/tienda.css">
+</head>
+
+<body>
+
+    <div class="logo">
+        <a href="../index.html">
+            <img src="../img/logo.jpg" class="logo" alt="Logo Marca" width="130px" height="130px">
+        </a>
+    </div>
+
+    <!-- ==================== HEADER ==================== -->
+    <header class="header">
+        <div>
+            <ul id="navbar" class="navbar">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="tienda.html">Tienda</a></li>
+                <li><a href="#">Recetas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li>
+                    <a href="carrito.html">
+                        <i class="far fa-graphite fa-thin fa-utensils" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <a href="#" id="close" class="close">
+                    <i class="far fa-times" aria-hidden="true"></i>
+                </a>
+            </ul>
+        </div>
+        <div class="mobile">
+            <a href="carrito.html">
+                <i class="far fa-graphite fa-thin fa-utensils" aria-hidden="true"></i>
+            </a>
+            <i id="bar" class="fas fa-outdent"></i>
+            </a>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ==================== BANNER TIENDA ==================== -->
+        <section class="banner section-m1">
+            <h4>Pastelería Artesanal</h4>
+            <h2>También contamos con opciones <span>SIN TAAC</span></h2>
+            <button>Hacé tu pedido acá</button>
+        </section>
+
+        <!-- ==================== PRODUCTOS DINÁMICOS ==================== -->
+        <section class="section-productos section-p1">
+            <div class="productos-container"></div>
+        </section>
+
+        <!-- MODAL -->
+        <div id="overlayModal" class="modal-overlay">
+            <div class="modal-custom">
+                <button id="btnCerrarModal" class="modal-cerrar">✕</button>
+                <img id="modalImagen" src="" alt="">
+                <h5 id="modalTitulo"></h5>
+                <p id="modalDescripcion"></p>
+                <h4 id="modalPrecio"></h4>
+            </div>
+        </div>
+    </main>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="section-p1">
+        <div class="col">
+            <h4>Contacto</h4>
+            <p><strong>Dirección:</strong> Av. Triunvirato 5000, Ciudad Autónoma de Buenos Aires</p>
+            <p><strong>Horario de atención:</strong> 10:00 - 20:00, Lunes a Sábados</p>
+            <p><strong>Teléfono para delivery:</strong> +54 11 1357 9753 </p>
+            <div class="delivery">
+                <a href="#"><i class="fab fa-brands fa-whatsapp fa-3x" style="color: rgb(99, 230, 190)" ></i></a>
+                <a href="#"><img src="../img/pedidosya.png" class="pedidos" alt="PedidosYa" width="55px" height="35px"></a> 
+                <a href="#"><img src="../img/Rappi.png" class="pedidos" alt="Rappi" width="55px" height="35px"></a>
+            </div>
+            <div class="follow">
+                <h4>Seguinos también en nuestras redes sociales</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>Mi Cuenta</h4>
+            <a href="#">Iniciar Sesión</a>
+            <a href="carrito.html">Ver Carrito</a>
+            <a href="#">Mis Favoritos</a>
+            <a href="#">Seguimiento de Pedido</a>
+            <a href="contacto.html">Ayuda</a>
+        </div>
+        <div class="col install">
+            <h4>Descargá nuestra App de pedidos</h4>
+            <p>Desde App Store o Google Play</p>
+            <div class="row">
+                <img src="../img/pay/app.jpg" alt="App Store">
+                <img src="../img/pay/play.jpg" alt="Google Play">
+            </div>
+            <p>Pago seguro</p>
+            <img src="../img/pay/pay.png" alt="Métodos de Pago">
+        </div>
+        <div class="copyright">
+            <p>© 2026, Paula Gerk | Tienda de pastelería - Ecommerce</p>
+        </div>
+    </footer>
+
+    <script src="../script/tienda.js"></script>
+    <script src="../script/script.js"></script>
+
+</body>
+
+</html>

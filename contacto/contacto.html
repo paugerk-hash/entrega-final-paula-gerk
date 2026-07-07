@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Pastelería artesanal</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="contacto.css">
+</head>
+
+<body>
+
+    <div class="logo">
+        <a href="#">
+            <img src="../img/logo.jpg" class="logo" alt="Logo Marca" width="130px" height="130px">
+        </a>
+    </div>
+
+    <header class="header">
+            <ul id="navbar" class="navbar">
+                <li><a href="">Home</a></li>
+                <li><a href="#">Tienda</a></li>
+                <li><a href="">Recetas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li>
+                    <a href="./pages/carrito.html">
+                        <i class="far fa-graphite fa-thin fa-utensils" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <a href="#" id="close" class="close">
+                    <i class="far fa-times" aria-hidden="true"></i>
+                </a>
+            </ul>
+        <div class="mobile">
+            <a href="pages/carrito.html">
+                <i class="fal fa-thin fa-utensils" aria-hidden="true"></i>
+            </a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="form-details">
+
+            <form action="https://formspree.io/f/TU_ID_FORMSPREE" method="POST" id="formularioContacto">
+                <span>DEJANOS UN MENSAJE</span>
+                <h2>Contactate con nostros</h2>
+
+                <div class="campo-control">
+                    <input type="text" id="tuNombre" name="nombre" placeholder="Tu Nombre">
+                    <div class="texto-error"></div>
+                </div>
+
+                <div class="campo-control">
+                    <input type="text" id="tuCorreo" name="correo" placeholder="Correo electrónico">
+                    <div class="texto-error"></div>
+                </div>
+
+                <div class="campo-control">
+                    <input type="text" id="asunto" name="asunto" placeholder="Asunto">
+                    <div class="texto-error"></div>
+                </div>
+
+                <div class="campo-control">
+                    <textarea id="tuMensaje" name="mensaje" cols="30" rows="10" placeholder="Tu mensaje"></textarea>
+                    <div class="texto-error"></div>
+                </div>
+
+                <button type="submit">Enviar</button>
+            </form>
+
+            <div class="people">
+                <div>
+                    <img src="../img/people/4.jpg" alt="Mayra Gerk">
+                    <p>
+                        <span>Mayra Gerk</span>
+                        Manejo de redes sociales <br>
+                    </p>
+                </div>
+                <div>
+                    <img src="../img/people/5.jpg" alt="Paula Gerk">
+                    <p>
+                        <span>Paula Gerk</span>
+                        Pastelera profesional <br>
+                    </p>
+                </div>
+                <div>
+                    <img src="../img/people/6.jpg" alt="Liliana Finella">
+                    <p>
+                        <span>Liliana Finella</span>
+                        Gestión de pedidos online <br>
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="seccion-mapa section-p1">
+            <h2>¿Dónde encontrarnos?</h2>
+            <p>Vení a probar nuestras delicias al local</p>
+            <div class="mapa-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.090820270036!2d-58.485045925335115!3d-34.57656845606293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb66629d68063%3A0xd14098f19878b107!2sAv.%20Triunvirato%205000%2C%20C1431FCP%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1779401756513!5m2!1ses!2sar" 
+                    width="900" 
+                    height="450" 
+                    width="100%"
+                    style="border:0; border-radius: 20px;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Ubicación de la tienda en Buenos Aires">
+                </iframe>
+            </div>
+        </section>
+
+        <section class="newsletter section-p1 section-m1">
+            <div class="newstext">
+                <h4>Suscribite al Newsletter</h4>
+                <p>Recibí novedades sobre nuevos productos y <span>recetas exclusivas</span></p>
+            </div>
+            <div class="form">
+                <input type="text" placeholder="Tu correo electrónico">
+                <button>Suscribirme</button>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="section-p1">
+        <div class="col">
+            <h4>Contacto</h4>
+            <p><strong>Dirección:</strong> Av. Triunvirato 5000, Ciudad Autónoma de Buenos Aires</p>
+            <p><strong>Horario de atención:</strong> 10:00 - 20:00, Lunes a Sábados</p>
+            <p><strong>Teléfono para delivery:</strong> +54 11 1357 9753 </p>
+            <div class="delivery">
+                <a href="#"><i class="fab fa-brands fa-whatsapp fa-3x" style="color: rgb(99, 230, 190)" ></i></a>
+                <a href="#"><img src="../img/pedidosya.png" class="pedidos" alt="PedidosYa" width="55px" height="35px"></a> 
+                <a href="#"><img src="../img/Rappi.png" class="pedidos" alt="Rappi" width="55px" height="35px"></a>
+            </div>
+            <div class="follow">
+                <h4>Seguinos también en nuestras redes sociales</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>Mi Cuenta</h4>
+            <a href="#">Iniciar Sesión</a>
+            <a href="#">Ver Carrito</a>
+            <a href="#">Mis Favoritos</a>
+            <a href="#">Seguimiento de Pedido</a>
+            <a href="#">Ayuda</a>
+        </div>
+        <div class="col install">
+            <h4>Descargá nuestra App de pedidos</h4>
+            <p>Desde App Store o Google Play</p>
+            <div class="row">
+                <img src="../img/pay/app.jpg" alt="App Store">
+                <img src="../img/pay/play.jpg" alt="Google Play">
+            </div>
+            <p>Pago seguro</p>
+            <img src="../img/pay/pay.png" alt="Métodos de Pago">
+        </div>
+        <div class="copyright">
+            <p>© 2026, Paula Gerk | Tienda de pastelería - Ecommerce</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

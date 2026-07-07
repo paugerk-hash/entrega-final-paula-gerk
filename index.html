@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelería Artesanal</title>
+    <!-- Font Awesome: librería de íconos -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <!-- Hoja de estilos principal -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="logo">
+        <a href="index.html">
+            <img src="img/logo.jpg" class="logo" alt="Logo Marca" width="130px" height="130px">
+        </a>
+    </div>
+
+    <!-- ==================== HEADER ==================== -->
+    <header class="header">
+            <ul id="navbar" class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="pages/tienda.html">Tienda</a></li>
+                <li><a href="#">Recetas</a></li>
+                <li><a href="pages/contacto.html">Contacto</a></li>
+                <li>
+                    <a href="pages/carrito.html">
+                        <i class="far fa-graphite fa-thin fa-utensils" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <a href="#" id="close" class="close">
+                    <i class="far fa-times" aria-hidden="true"></i>
+                </a>
+            </ul>
+        <div class="mobile">
+            <a href="pages/carrito.html">
+                <i class="far fa-graphite fa-thin fa-utensils" aria-hidden="true"></i>
+            </a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </header>
+
+    <main>
+       
+        <!-- ==================== HERO ==================== -->
+        <section class="hero">
+            <div class="hero-content">
+                <h4>Productos de elaboración artesanal</h4>
+                <h1>Como en casa pero con un toque mágico</h1>
+                <button>Comprar</button>
+            </div>
+        </section>
+
+        <!-- ==================== PRODUCTOS ==================== -->
+        <section class="section-productos section-p1">
+            <h2>Pastelería Artesanal</h2>
+            <p>Tortas,  Alfajores y Tartas para darte un gusto y compratir con quien vos quieras</p>
+            <div class="productos-container">
+
+                <div class="producto">
+                    <img src="img/productos/Alfajores.jpg" alt="Alfajores Bañados">
+                    <div class="producto-descripcion">
+                        <span>Alfajores Bañados</span>
+                        <h5>Alfajores de Chocolate Semiamargo o Blanco</h5>
+                        <h4>$900.00</h4>
+                    </div>
+                    <a class="carrito" data-nombre="Alfajores de Chocolate Semiamargo o Blanco" data-precio="900.00"
+                        data-imagen="../img/productos/Alfajores.jpg">
+                        <i class="fal fa-thin fa-utensils"></i> Agregar
+                    </a>
+                </div>
+
+                <div class="producto">
+                    <img src="img/productos/Alfajoresm.jpg" alt="Alfajores Maicena">
+                    <div class="producto-descripcion">
+                        <span>Alfajores de Maicena</span>
+                        <h5>Alfajores de Maicena rellenos de Dulce de Leche</h5>
+                        <h4>$890.00</h4>
+                    </div>
+                    <a class="carrito" data-nombre="Alfajores de Maicena rellenos de Dulce de Leche" data-precio="890.00"
+                        data-imagen="../img/productos/Alfajoresm.jpg">
+                        <i class="fal fa-thin fa-utensils"></i> Agregar
+                    </a>
+                </div>
+
+                <div class="producto">
+                    <img src="img/productos/Marquise.jpg" alt="Marquise">
+                    <div class="producto-descripcion">
+                        <span>Marquise de Chocolate</span>
+                        <h5>Marquise de Chocolate con Dulce de Leche y Merengue</h5>
+                        <h4>$3900.00</h4>
+                    </div>
+                    <a class="carrito" data-nombre="Marquise de Chocolate" data-precio="3900.00"
+                        data-imagen="../img/productos/Marquise.jpg">
+                        <i class="fal fa-thin fa-utensils"></i> Agregar
+                    </a>
+                </div>
+
+                <div class="producto">
+                    <img src="img/productos/TortaN.jpg" alt="Torta Número">
+                    <div class="producto-descripcion">
+                        <span>Torta numérica</span>
+                        <h5>Torta número con relleno a elección</h5>
+                        <h4>$5000.00</h4>
+                    </div>
+                    <a class="carrito" data-nombre="Torta número con relleno a elección" data-precio="5000.00"
+                        data-imagen="../img/productos/TortaN.jpg">
+                        <i class="fal fa-thin fa-utensils"></i> Agregar
+                    </a>
+                </div>
+
+                <div class="producto">
+                    <img src="img/productos/Tortachoco.jpg" alt="Torta Personalizada">
+                    <div class="producto-descripcion">
+                        <span>Torta Personalizada</span>
+                        <h5>Torta con diseño personalizado con rellenos a elección (2 rellenos)</h5>
+                        <h4>$6500.00</h4>
+                    </div>
+                    <a class="carrito" data-nombre="Torta con diseño personalizado con rellenos a elección (2 rellenos)" data-precio="6500.00"
+                        data-imagen="../img/productos/Tortachoco.jpg">
+                        <i class="fal fa-thin fa-utensils"></i> Agregar
+                    </a>
+                </div>
+
+                <div class="producto">
+                    <img src="img/productos/Tarta1.jpg" alt="Tarta de coco">
+                    <div class="producto-descripcion">
+                        <span>Tarta</span>
+                        <h5>Tarta de dulce de leche y coco</h5>
+                        <h4>$3500.00</h4>
+                    </div>
+                    <a class="carrito" data-nombre="Tarta de dulce de leche y coco" data-precio="6500.00"
+                        data-imagen="../img/productos/Tarta1.jpg">
+                        <i class="fal fa-thin fa-utensils"></i> Agregar
+                    </a>
+                </div>
+
+                <div class="producto">
+                    <img src="img/productos/Tarta2.jpg" alt="Tarta Havannet">
+                    <div class="producto-descripcion">
+                        <span>Tarta</span>
+                        <h5>Tarta Havennet de dulce de leche y chocolate semiamargo</h5>
+                        <h4>$3500.00</h4>
+                    </div>
+                    <a class="carrito" data-nombre="Tarta Havennet de dulce de leche y chocolate semiamargo" data-precio="3500.00"
+                        data-imagen="../img/productos/Tarta2.jpg">
+                        <i class="fal fa-thin fa-utensils"></i> Agregar
+                    </a>
+                </div>
+
+                <div class="producto">
+                    <img src="img/productos/Tarta3.jpg" alt="Tarta de membrillo">
+                    <div class="producto-descripcion">
+                        <span>Tarta</span>
+                        <h5>Tarta pastafrola de membrillo</h5>
+                        <h4>$3500.00</h4>
+                    </div>
+                    <a class="carrito" data-nombre="Tarta pastafrola de membrillo" data-precio="3500.00"
+                        data-imagen="../img/productos/Tarta3.jpg">
+                        <i class="fal fa-thin fa-utensils"></i> Agregar
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ==================== BANNER ==================== -->
+        <section class="banner section-m1">
+            <h4>Pastelería Artesanal</h4>
+            <h2>También contamos con opciones <span>SIN TAAC</span></h2>
+            <button>Hacé tu pedido acá</button>
+        </section>
+
+        <!-- ==================== RESEÑAS ==================== -->
+        <section class="section-resenias section-p1 section-m1">
+            <h2>Lo que dicen nuestros clientes</h2>
+            <p>Opiniones reales de clientes</p>
+            <div class="resenias-container">
+
+                <div class="resenia-card">
+                    <div class="resenia-estrellas">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>"Compré alfajores para llevar a una merienda. Muy ricos, volvería a comprar"</p>
+                    <div class="resenia-autor">
+                        <img src="img/people/1.jpg" alt="Belen">
+                        <div>
+                            <h5>Belén</h5>
+                            <span>Buenos Aires, zona Oeste</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resenia-card">
+                    <div class="resenia-estrellas">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Productos de pastelería de buena calidad y estética, se nota que son caseros. Gracias por endulzar mis meriendas."</p>
+                    <div class="resenia-autor">
+                        <img src="img/people/2.jpg" alt="Sofia">
+                        <div>
+                            <h5>Sofía</h5>
+                            <span>Buenos Aires, CABA </span>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="resenia-card">
+                    <div class="resenia-estrellas">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Estética y sabor increíble! Encargué una torta personalizada para el cumpleaños de mi hija y sin dudas volvería a elegirlos"</p>
+                    <div class="resenia-autor">
+                        <img src="img/people/3.jpg" alt="Ricardo">
+                        <div>
+                            <h5>Ricardo</h5>
+                            <span>Buenos Aires, CABA</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ==================== NEWSLETTER ==================== -->
+        <section class="newsletter section-p1 section-m1">
+            <div class="newstext">
+                <h4>Suscribite al Newsletter</h4>
+                <p>Recibí novedades sobre nuevos productos y <span>recetas exclusivas</span></p>
+            </div>
+            <div class="form">
+                <input type="text" placeholder="Tu correo electrónico">
+                <button>Suscribirme</button>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="section-p1">
+        <div class="col">
+            <h4>Contacto</h4>
+            <p><strong>Dirección:</strong> Av. Triunvirato 5000, Ciudad Autónoma de Buenos Aires</p>
+            <p><strong>Horario de atención:</strong> 10:00 - 20:00, Lunes a Sábados</p>
+            <p><strong>Teléfono para delivery:</strong> +54 11 1357 9753 </p>
+            <div class="delivery">
+                <a href="#"><i class="fab fa-brands fa-whatsapp fa-3x" style="color: rgb(99, 230, 190)" ></i></a>
+                <a href="#"><img src="img/pedidosya.png" class="pedidos" alt="PedidosYa" width="55px" height="35px"></a> 
+                <a href="#"><img src="img/Rappi.png" class="pedidos" alt="Rappi" width="55px" height="35px"></a>
+            </div>
+            <div class="follow">
+                <h4>Seguinos también en nuestras redes sociales</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>Mi Cuenta</h4>
+            <a href="#">Iniciar Sesión</a>
+            <a href="pages/carrito.html">Ver Carrito</a>
+            <a href="#">Mis Favoritos</a>
+            <a href="#">Seguimiento de Pedido</a>
+            <a href="pages/contacto.html">Ayuda</a>
+        </div>
+        <div class="col install">
+            <h4>Descargá nuestra App de pedidos</h4>
+            <p>Desde App Store o Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="App Store">
+                <img src="img/pay/play.jpg" alt="Google Play">
+            </div>
+            <p>Pago seguro</p>
+            <img src="img/pay/pay.png" alt="Métodos de Pago">
+        </div>
+        <div class="copyright">
+            <p>© 2026, Paula Gerk | Tienda de pastelería - Ecommerce</p>
+        </div>
+    </footer>
+
+    <script src="script/script.js"></script>
+    <script src="script/index.js"></script>
+    <script src="script/toast.js"></script>
+
+</body>
+
+</html>
